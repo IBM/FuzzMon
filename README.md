@@ -5,3 +5,6 @@ This tool intends to use fuzz-testing methods to find various vulnerabilities in
 For more details visit `FuzzMon`'s [wiki page](https://github.ibm.com/JSFuzz/JSFuzz/wiki/JSFuzz)
 
 For installation and basic usage examples of `FuzzMon`, please visit the [getting started](https://github.ibm.com/JSFuzz/JSFuzz/wiki/Getting-started) wiki page
+
+## Credit
+The code in this repository was written by Benny Zeltser (https://github.com/benny-z)
