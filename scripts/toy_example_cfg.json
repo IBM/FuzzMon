@@ -1,0 +1,4109 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": true,
+    "compound": true
+  },
+  "nodes": [
+    {
+      "v": "RETURN-1:-1",
+      "value": {
+        "label": "RETURN",
+        "loc": {
+          "line": -1,
+          "col": -1
+        },
+        "uid": "RETURN-1:-1",
+        "nodeValue": "",
+        "filename": ""
+      }
+    },
+    {
+      "v": "ROOT-1:-1null",
+      "value": {
+        "label": "ROOT",
+        "loc": {
+          "line": -1,
+          "col": -1
+        },
+        "uid": "ROOT-1:-1null",
+        "nodeValue": "",
+        "filename": "null"
+      }
+    },
+    {
+      "v": "ROOT-1:-1null",
+      "value": {
+        "label": "ROOT",
+        "loc": {
+          "line": -1,
+          "col": -1
+        },
+        "uid": "ROOT-1:-1null",
+        "nodeValue": "",
+        "filename": "null"
+      }
+    },
+    {
+      "v": "ROOT-1:-1null",
+      "value": {
+        "label": "ROOT",
+        "loc": {
+          "line": -1,
+          "col": -1
+        },
+        "uid": "ROOT-1:-1null",
+        "nodeValue": "",
+        "filename": "null"
+      }
+    },
+    {
+      "v": "SCRIPT1:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "SCRIPT",
+        "loc": {
+          "line": 1,
+          "col": 0
+        },
+        "uid": "SCRIPT1:0../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "CONST3:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "CONST",
+        "loc": {
+          "line": 3,
+          "col": 0
+        },
+        "uid": "CONST3:0../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME3:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 3,
+          "col": 6
+        },
+        "uid": "NAME3:6../../../test/sample_apps/toy_example.js",
+        "nodeValue": "not_a_toy_example",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "CALL3:26../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "CALL",
+        "loc": {
+          "line": 3,
+          "col": 26
+        },
+        "uid": "CALL3:26../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME3:26../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 3,
+          "col": 26
+        },
+        "uid": "NAME3:26../../../test/sample_apps/toy_example.js",
+        "nodeValue": "require",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "STRING3:34../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "STRING",
+        "loc": {
+          "line": 3,
+          "col": 34
+        },
+        "uid": "STRING3:34../../../test/sample_apps/toy_example.js",
+        "nodeValue": "./not_a_toy_example",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "CONST4:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "CONST",
+        "loc": {
+          "line": 4,
+          "col": 0
+        },
+        "uid": "CONST4:0../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME4:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 4,
+          "col": 6
+        },
+        "uid": "NAME4:6../../../test/sample_apps/toy_example.js",
+        "nodeValue": "gabazaza",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "CALL4:17../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "CALL",
+        "loc": {
+          "line": 4,
+          "col": 17
+        },
+        "uid": "CALL4:17../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME4:17../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 4,
+          "col": 17
+        },
+        "uid": "NAME4:17../../../test/sample_apps/toy_example.js",
+        "nodeValue": "require",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "STRING4:25../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "STRING",
+        "loc": {
+          "line": 4,
+          "col": 25
+        },
+        "uid": "STRING4:25../../../test/sample_apps/toy_example.js",
+        "nodeValue": "express",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "CONST5:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "CONST",
+        "loc": {
+          "line": 5,
+          "col": 0
+        },
+        "uid": "CONST5:0../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME5:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 5,
+          "col": 6
+        },
+        "uid": "NAME5:6../../../test/sample_apps/toy_example.js",
+        "nodeValue": "router",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "CALL5:15../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "CALL",
+        "loc": {
+          "line": 5,
+          "col": 15
+        },
+        "uid": "CALL5:15../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "GETPROP5:15../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "GETPROP",
+        "loc": {
+          "line": 5,
+          "col": 15
+        },
+        "uid": "GETPROP5:15../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "CALL5:15../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "CALL",
+        "loc": {
+          "line": 5,
+          "col": 15
+        },
+        "uid": "CALL5:15../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME5:15../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 5,
+          "col": 15
+        },
+        "uid": "NAME5:15../../../test/sample_apps/toy_example.js",
+        "nodeValue": "require",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "STRING5:23../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "STRING",
+        "loc": {
+          "line": 5,
+          "col": 23
+        },
+        "uid": "STRING5:23../../../test/sample_apps/toy_example.js",
+        "nodeValue": "express",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "STRING5:34../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "STRING",
+        "loc": {
+          "line": 5,
+          "col": 34
+        },
+        "uid": "STRING5:34../../../test/sample_apps/toy_example.js",
+        "nodeValue": "Router",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "EXPR_RESULT58:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "EXPR_RESULT",
+        "loc": {
+          "line": 58,
+          "col": 0
+        },
+        "uid": "EXPR_RESULT58:0../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "FUNCTION7:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "FUNCTION",
+        "loc": {
+          "line": 7,
+          "col": 0
+        },
+        "uid": "FUNCTION7:0../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME7:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 7,
+          "col": 9
+        },
+        "uid": "NAME7:9../../../test/sample_apps/toy_example.js",
+        "nodeValue": "beh",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "PARAM_LIST7:12../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "PARAM_LIST",
+        "loc": {
+          "line": 7,
+          "col": 12
+        },
+        "uid": "PARAM_LIST7:12../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME7:13../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 7,
+          "col": 13
+        },
+        "uid": "NAME7:13../../../test/sample_apps/toy_example.js",
+        "nodeValue": "a",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "BLOCK7:16../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "BLOCK",
+        "loc": {
+          "line": 7,
+          "col": 16
+        },
+        "uid": "BLOCK7:16../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "EXPR_RESULT8:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "EXPR_RESULT",
+        "loc": {
+          "line": 8,
+          "col": 1
+        },
+        "uid": "EXPR_RESULT8:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "CALL8:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "CALL",
+        "loc": {
+          "line": 8,
+          "col": 1
+        },
+        "uid": "CALL8:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "GETPROP8:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "GETPROP",
+        "loc": {
+          "line": 8,
+          "col": 1
+        },
+        "uid": "GETPROP8:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME8:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 8,
+          "col": 1
+        },
+        "uid": "NAME8:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "console",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "STRING8:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "STRING",
+        "loc": {
+          "line": 8,
+          "col": 9
+        },
+        "uid": "STRING8:9../../../test/sample_apps/toy_example.js",
+        "nodeValue": "log",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME8:13../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 8,
+          "col": 13
+        },
+        "uid": "NAME8:13../../../test/sample_apps/toy_example.js",
+        "nodeValue": "a",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "FUNCTION11:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "FUNCTION",
+        "loc": {
+          "line": 11,
+          "col": 0
+        },
+        "uid": "FUNCTION11:0../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME11:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 11,
+          "col": 9
+        },
+        "uid": "NAME11:9../../../test/sample_apps/toy_example.js",
+        "nodeValue": "blah",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "PARAM_LIST11:13../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "PARAM_LIST",
+        "loc": {
+          "line": 11,
+          "col": 13
+        },
+        "uid": "PARAM_LIST11:13../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME11:14../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 11,
+          "col": 14
+        },
+        "uid": "NAME11:14../../../test/sample_apps/toy_example.js",
+        "nodeValue": "input2",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "BLOCK11:22../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "BLOCK",
+        "loc": {
+          "line": 11,
+          "col": 22
+        },
+        "uid": "BLOCK11:22../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "LET12:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "LET",
+        "loc": {
+          "line": 12,
+          "col": 1
+        },
+        "uid": "LET12:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME12:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 12,
+          "col": 5
+        },
+        "uid": "NAME12:5../../../test/sample_apps/toy_example.js",
+        "nodeValue": "c",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "ADD12:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ADD",
+        "loc": {
+          "line": 12,
+          "col": 9
+        },
+        "uid": "ADD12:9../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME12:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 12,
+          "col": 9
+        },
+        "uid": "NAME12:9../../../test/sample_apps/toy_example.js",
+        "nodeValue": "input2",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER12:18../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 12,
+          "col": 18
+        },
+        "uid": "NUMBER12:18../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "IF13:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "IF",
+        "loc": {
+          "line": 13,
+          "col": 1
+        },
+        "uid": "IF13:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "GT13:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "GT",
+        "loc": {
+          "line": 13,
+          "col": 5
+        },
+        "uid": "GT13:5../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "ADD13:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ADD",
+        "loc": {
+          "line": 13,
+          "col": 5
+        },
+        "uid": "ADD13:5../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME13:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 13,
+          "col": 5
+        },
+        "uid": "NAME13:5../../../test/sample_apps/toy_example.js",
+        "nodeValue": "input2",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME13:14../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 13,
+          "col": 14
+        },
+        "uid": "NAME13:14../../../test/sample_apps/toy_example.js",
+        "nodeValue": "c",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER13:18../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 13,
+          "col": 18
+        },
+        "uid": "NUMBER13:18../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "BLOCK13:22../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "BLOCK",
+        "loc": {
+          "line": 13,
+          "col": 22
+        },
+        "uid": "BLOCK13:22../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "IF14:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "IF",
+        "loc": {
+          "line": 14,
+          "col": 2
+        },
+        "uid": "IF14:2../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "GT14:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "GT",
+        "loc": {
+          "line": 14,
+          "col": 6
+        },
+        "uid": "GT14:6../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "CALL14:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "CALL",
+        "loc": {
+          "line": 14,
+          "col": 6
+        },
+        "uid": "CALL14:6../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME14:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 14,
+          "col": 6
+        },
+        "uid": "NAME14:6../../../test/sample_apps/toy_example.js",
+        "nodeValue": "meh",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "DIV14:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "DIV",
+        "loc": {
+          "line": 14,
+          "col": 10
+        },
+        "uid": "DIV14:10../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME14:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 14,
+          "col": 10
+        },
+        "uid": "NAME14:10../../../test/sample_apps/toy_example.js",
+        "nodeValue": "input2",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER14:19../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 14,
+          "col": 19
+        },
+        "uid": "NUMBER14:19../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER14:24../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 14,
+          "col": 24
+        },
+        "uid": "NUMBER14:24../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "BLOCK14:27../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "BLOCK",
+        "loc": {
+          "line": 14,
+          "col": 27
+        },
+        "uid": "BLOCK14:27../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "EXPR_RESULT15:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "EXPR_RESULT",
+        "loc": {
+          "line": 15,
+          "col": 3
+        },
+        "uid": "EXPR_RESULT15:3../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "CALL15:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "CALL",
+        "loc": {
+          "line": 15,
+          "col": 3
+        },
+        "uid": "CALL15:3../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "GETPROP15:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "GETPROP",
+        "loc": {
+          "line": 15,
+          "col": 3
+        },
+        "uid": "GETPROP15:3../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME15:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 15,
+          "col": 3
+        },
+        "uid": "NAME15:3../../../test/sample_apps/toy_example.js",
+        "nodeValue": "console",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "STRING15:11../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "STRING",
+        "loc": {
+          "line": 15,
+          "col": 11
+        },
+        "uid": "STRING15:11../../../test/sample_apps/toy_example.js",
+        "nodeValue": "log",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "STRING15:15../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "STRING",
+        "loc": {
+          "line": 15,
+          "col": 15
+        },
+        "uid": "STRING15:15../../../test/sample_apps/toy_example.js",
+        "nodeValue": "trololo",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "FUNCTION20:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "FUNCTION",
+        "loc": {
+          "line": 20,
+          "col": 0
+        },
+        "uid": "FUNCTION20:0../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME20:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 20,
+          "col": 9
+        },
+        "uid": "NAME20:9../../../test/sample_apps/toy_example.js",
+        "nodeValue": "meh",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "PARAM_LIST20:12../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "PARAM_LIST",
+        "loc": {
+          "line": 20,
+          "col": 12
+        },
+        "uid": "PARAM_LIST20:12../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME20:13../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 20,
+          "col": 13
+        },
+        "uid": "NAME20:13../../../test/sample_apps/toy_example.js",
+        "nodeValue": "input",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "BLOCK",
+        "loc": {
+          "line": 20,
+          "col": 20
+        },
+        "uid": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "LET21:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "LET",
+        "loc": {
+          "line": 21,
+          "col": 1
+        },
+        "uid": "LET21:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME21:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 21,
+          "col": 5
+        },
+        "uid": "NAME21:5../../../test/sample_apps/toy_example.js",
+        "nodeValue": "a",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER21:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 21,
+          "col": 9
+        },
+        "uid": "NUMBER21:9../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "EXPR_RESULT22:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "EXPR_RESULT",
+        "loc": {
+          "line": 22,
+          "col": 1
+        },
+        "uid": "EXPR_RESULT22:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "ASSIGN22:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ASSIGN",
+        "loc": {
+          "line": 22,
+          "col": 1
+        },
+        "uid": "ASSIGN22:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME22:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 22,
+          "col": 1
+        },
+        "uid": "NAME22:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "a",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME22:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 22,
+          "col": 5
+        },
+        "uid": "NAME22:5../../../test/sample_apps/toy_example.js",
+        "nodeValue": "input",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "LET23:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "LET",
+        "loc": {
+          "line": 23,
+          "col": 1
+        },
+        "uid": "LET23:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME23:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 23,
+          "col": 5
+        },
+        "uid": "NAME23:5../../../test/sample_apps/toy_example.js",
+        "nodeValue": "b",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER23:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 23,
+          "col": 9
+        },
+        "uid": "NUMBER23:9../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "LET26:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "LET",
+        "loc": {
+          "line": 26,
+          "col": 1
+        },
+        "uid": "LET26:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME26:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 26,
+          "col": 5
+        },
+        "uid": "NAME26:5../../../test/sample_apps/toy_example.js",
+        "nodeValue": "e",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER26:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 26,
+          "col": 9
+        },
+        "uid": "NUMBER26:9../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "LET27:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "LET",
+        "loc": {
+          "line": 27,
+          "col": 1
+        },
+        "uid": "LET27:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME27:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 27,
+          "col": 5
+        },
+        "uid": "NAME27:5../../../test/sample_apps/toy_example.js",
+        "nodeValue": "c",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER27:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 27,
+          "col": 9
+        },
+        "uid": "NUMBER27:9../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "EXPR_RESULT29:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "EXPR_RESULT",
+        "loc": {
+          "line": 29,
+          "col": 1
+        },
+        "uid": "EXPR_RESULT29:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "CALL29:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "CALL",
+        "loc": {
+          "line": 29,
+          "col": 1
+        },
+        "uid": "CALL29:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME29:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 29,
+          "col": 1
+        },
+        "uid": "NAME29:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "beh",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME29:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 29,
+          "col": 5
+        },
+        "uid": "NAME29:5../../../test/sample_apps/toy_example.js",
+        "nodeValue": "e",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "LET30:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "LET",
+        "loc": {
+          "line": 30,
+          "col": 1
+        },
+        "uid": "LET30:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME30:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 30,
+          "col": 5
+        },
+        "uid": "NAME30:5../../../test/sample_apps/toy_example.js",
+        "nodeValue": "zz",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "FUNCTION30:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "FUNCTION",
+        "loc": {
+          "line": 30,
+          "col": 10
+        },
+        "uid": "FUNCTION30:10../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME30:19../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 30,
+          "col": 19
+        },
+        "uid": "NAME30:19../../../test/sample_apps/toy_example.js",
+        "nodeValue": "gabaza",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "PARAM_LIST30:25../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "PARAM_LIST",
+        "loc": {
+          "line": 30,
+          "col": 25
+        },
+        "uid": "PARAM_LIST30:25../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "BLOCK30:28../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "BLOCK",
+        "loc": {
+          "line": 30,
+          "col": 28
+        },
+        "uid": "BLOCK30:28../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "EXPR_RESULT31:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "EXPR_RESULT",
+        "loc": {
+          "line": 31,
+          "col": 2
+        },
+        "uid": "EXPR_RESULT31:2../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "CALL31:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "CALL",
+        "loc": {
+          "line": 31,
+          "col": 2
+        },
+        "uid": "CALL31:2../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "GETPROP31:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "GETPROP",
+        "loc": {
+          "line": 31,
+          "col": 2
+        },
+        "uid": "GETPROP31:2../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME31:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 31,
+          "col": 2
+        },
+        "uid": "NAME31:2../../../test/sample_apps/toy_example.js",
+        "nodeValue": "console",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "STRING31:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "STRING",
+        "loc": {
+          "line": 31,
+          "col": 10
+        },
+        "uid": "STRING31:10../../../test/sample_apps/toy_example.js",
+        "nodeValue": "log",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "STRING31:14../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "STRING",
+        "loc": {
+          "line": 31,
+          "col": 14
+        },
+        "uid": "STRING31:14../../../test/sample_apps/toy_example.js",
+        "nodeValue": "a",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "IF35:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "IF",
+        "loc": {
+          "line": 35,
+          "col": 1
+        },
+        "uid": "IF35:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "GT35:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "GT",
+        "loc": {
+          "line": 35,
+          "col": 5
+        },
+        "uid": "GT35:5../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME35:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 35,
+          "col": 5
+        },
+        "uid": "NAME35:5../../../test/sample_apps/toy_example.js",
+        "nodeValue": "a",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER35:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 35,
+          "col": 9
+        },
+        "uid": "NUMBER35:9../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "BLOCK35:12../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "BLOCK",
+        "loc": {
+          "line": 35,
+          "col": 12
+        },
+        "uid": "BLOCK35:12../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "EXPR_RESULT36:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "EXPR_RESULT",
+        "loc": {
+          "line": 36,
+          "col": 2
+        },
+        "uid": "EXPR_RESULT36:2../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "ASSIGN36:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ASSIGN",
+        "loc": {
+          "line": 36,
+          "col": 2
+        },
+        "uid": "ASSIGN36:2../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME36:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 36,
+          "col": 2
+        },
+        "uid": "NAME36:2../../../test/sample_apps/toy_example.js",
+        "nodeValue": "b",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER36:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 36,
+          "col": 6
+        },
+        "uid": "NUMBER36:6../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "IF37:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "IF",
+        "loc": {
+          "line": 37,
+          "col": 2
+        },
+        "uid": "IF37:2../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "LT37:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "LT",
+        "loc": {
+          "line": 37,
+          "col": 6
+        },
+        "uid": "LT37:6../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "ADD37:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ADD",
+        "loc": {
+          "line": 37,
+          "col": 6
+        },
+        "uid": "ADD37:6../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME37:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 37,
+          "col": 6
+        },
+        "uid": "NAME37:6../../../test/sample_apps/toy_example.js",
+        "nodeValue": "a",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME37:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 37,
+          "col": 10
+        },
+        "uid": "NAME37:10../../../test/sample_apps/toy_example.js",
+        "nodeValue": "b",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER37:14../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 37,
+          "col": 14
+        },
+        "uid": "NUMBER37:14../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "BLOCK37:18../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "BLOCK",
+        "loc": {
+          "line": 37,
+          "col": 18
+        },
+        "uid": "BLOCK37:18../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "EXPR_RESULT38:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "EXPR_RESULT",
+        "loc": {
+          "line": 38,
+          "col": 3
+        },
+        "uid": "EXPR_RESULT38:3../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "ASSIGN38:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ASSIGN",
+        "loc": {
+          "line": 38,
+          "col": 3
+        },
+        "uid": "ASSIGN38:3../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME38:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 38,
+          "col": 3
+        },
+        "uid": "NAME38:3../../../test/sample_apps/toy_example.js",
+        "nodeValue": "c",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER38:7../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 38,
+          "col": 7
+        },
+        "uid": "NUMBER38:7../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "EXPR_RESULT39:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "EXPR_RESULT",
+        "loc": {
+          "line": 39,
+          "col": 3
+        },
+        "uid": "EXPR_RESULT39:3../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "ASSIGN39:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ASSIGN",
+        "loc": {
+          "line": 39,
+          "col": 3
+        },
+        "uid": "ASSIGN39:3../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME39:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 39,
+          "col": 3
+        },
+        "uid": "NAME39:3../../../test/sample_apps/toy_example.js",
+        "nodeValue": "e",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER39:7../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 39,
+          "col": 7
+        },
+        "uid": "NUMBER39:7../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "EXPR_RESULT42:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "EXPR_RESULT",
+        "loc": {
+          "line": 42,
+          "col": 1
+        },
+        "uid": "EXPR_RESULT42:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "CALL42:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "CALL",
+        "loc": {
+          "line": 42,
+          "col": 1
+        },
+        "uid": "CALL42:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME42:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 42,
+          "col": 1
+        },
+        "uid": "NAME42:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "zz",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "EXPR_RESULT43:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "EXPR_RESULT",
+        "loc": {
+          "line": 43,
+          "col": 1
+        },
+        "uid": "EXPR_RESULT43:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "ASSIGN_ADD43:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ASSIGN_ADD",
+        "loc": {
+          "line": 43,
+          "col": 1
+        },
+        "uid": "ASSIGN_ADD43:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME43:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 43,
+          "col": 1
+        },
+        "uid": "NAME43:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "c",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "ADD43:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ADD",
+        "loc": {
+          "line": 43,
+          "col": 6
+        },
+        "uid": "ADD43:6../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME43:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 43,
+          "col": 6
+        },
+        "uid": "NAME43:6../../../test/sample_apps/toy_example.js",
+        "nodeValue": "a",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME43:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 43,
+          "col": 10
+        },
+        "uid": "NAME43:10../../../test/sample_apps/toy_example.js",
+        "nodeValue": "b",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "EXPR_RESULT44:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "EXPR_RESULT",
+        "loc": {
+          "line": 44,
+          "col": 1
+        },
+        "uid": "EXPR_RESULT44:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "ASSIGN_ADD44:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ASSIGN_ADD",
+        "loc": {
+          "line": 44,
+          "col": 1
+        },
+        "uid": "ASSIGN_ADD44:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME44:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 44,
+          "col": 1
+        },
+        "uid": "NAME44:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "e",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER44:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 44,
+          "col": 6
+        },
+        "uid": "NUMBER44:6../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "IF45:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "IF",
+        "loc": {
+          "line": 45,
+          "col": 1
+        },
+        "uid": "IF45:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "GT45:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "GT",
+        "loc": {
+          "line": 45,
+          "col": 5
+        },
+        "uid": "GT45:5../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "ADD45:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ADD",
+        "loc": {
+          "line": 45,
+          "col": 5
+        },
+        "uid": "ADD45:5../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "ADD45:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ADD",
+        "loc": {
+          "line": 45,
+          "col": 5
+        },
+        "uid": "ADD45:5../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME45:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 45,
+          "col": 5
+        },
+        "uid": "NAME45:5../../../test/sample_apps/toy_example.js",
+        "nodeValue": "a",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME45:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 45,
+          "col": 9
+        },
+        "uid": "NAME45:9../../../test/sample_apps/toy_example.js",
+        "nodeValue": "b",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME46:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 46,
+          "col": 2
+        },
+        "uid": "NAME46:2../../../test/sample_apps/toy_example.js",
+        "nodeValue": "c",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER46:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 46,
+          "col": 6
+        },
+        "uid": "NUMBER46:6../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "BLOCK46:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "BLOCK",
+        "loc": {
+          "line": 46,
+          "col": 10
+        },
+        "uid": "BLOCK46:10../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "IF47:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "IF",
+        "loc": {
+          "line": 47,
+          "col": 2
+        },
+        "uid": "IF47:2../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "AND47:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "AND",
+        "loc": {
+          "line": 47,
+          "col": 6
+        },
+        "uid": "AND47:6../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "GT47:7../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "GT",
+        "loc": {
+          "line": 47,
+          "col": 7
+        },
+        "uid": "GT47:7../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME47:7../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 47,
+          "col": 7
+        },
+        "uid": "NAME47:7../../../test/sample_apps/toy_example.js",
+        "nodeValue": "c",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER47:11../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 47,
+          "col": 11
+        },
+        "uid": "NUMBER47:11../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "LT47:19../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "LT",
+        "loc": {
+          "line": 47,
+          "col": 19
+        },
+        "uid": "LT47:19../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "ADD47:19../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ADD",
+        "loc": {
+          "line": 47,
+          "col": 19
+        },
+        "uid": "ADD47:19../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME47:19../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 47,
+          "col": 19
+        },
+        "uid": "NAME47:19../../../test/sample_apps/toy_example.js",
+        "nodeValue": "a",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME47:23../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 47,
+          "col": 23
+        },
+        "uid": "NAME47:23../../../test/sample_apps/toy_example.js",
+        "nodeValue": "b",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER47:27../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 47,
+          "col": 27
+        },
+        "uid": "NUMBER47:27../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "BLOCK47:32../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "BLOCK",
+        "loc": {
+          "line": 47,
+          "col": 32
+        },
+        "uid": "BLOCK47:32../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "EXPR_RESULT48:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "EXPR_RESULT",
+        "loc": {
+          "line": 48,
+          "col": 3
+        },
+        "uid": "EXPR_RESULT48:3../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "ASSIGN_ADD48:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ASSIGN_ADD",
+        "loc": {
+          "line": 48,
+          "col": 3
+        },
+        "uid": "ASSIGN_ADD48:3../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME48:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 48,
+          "col": 3
+        },
+        "uid": "NAME48:3../../../test/sample_apps/toy_example.js",
+        "nodeValue": "e",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER48:8../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 48,
+          "col": 8
+        },
+        "uid": "NUMBER48:8../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "RETURN49:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "RETURN",
+        "loc": {
+          "line": 49,
+          "col": 3
+        },
+        "uid": "RETURN49:3../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER49:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 49,
+          "col": 10
+        },
+        "uid": "NUMBER49:10../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "IF52:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "IF",
+        "loc": {
+          "line": 52,
+          "col": 1
+        },
+        "uid": "IF52:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "FALSE52:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "FALSE",
+        "loc": {
+          "line": 52,
+          "col": 5
+        },
+        "uid": "FALSE52:5../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "BLOCK52:12../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "BLOCK",
+        "loc": {
+          "line": 52,
+          "col": 12
+        },
+        "uid": "BLOCK52:12../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "VAR53:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "VAR",
+        "loc": {
+          "line": 53,
+          "col": 2
+        },
+        "uid": "VAR53:2../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME53:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 53,
+          "col": 6
+        },
+        "uid": "NAME53:6../../../test/sample_apps/toy_example.js",
+        "nodeValue": "x",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER53:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 53,
+          "col": 10
+        },
+        "uid": "NUMBER53:10../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "RETURN55:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "RETURN",
+        "loc": {
+          "line": 55,
+          "col": 1
+        },
+        "uid": "RETURN55:1../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NUMBER55:8../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NUMBER",
+        "loc": {
+          "line": 55,
+          "col": 8
+        },
+        "uid": "NUMBER55:8../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "ASSIGN58:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ASSIGN",
+        "loc": {
+          "line": 58,
+          "col": 0
+        },
+        "uid": "ASSIGN58:0../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "GETPROP58:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "GETPROP",
+        "loc": {
+          "line": 58,
+          "col": 0
+        },
+        "uid": "GETPROP58:0../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME58:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 58,
+          "col": 0
+        },
+        "uid": "NAME58:0../../../test/sample_apps/toy_example.js",
+        "nodeValue": "exports",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "STRING58:8../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "STRING",
+        "loc": {
+          "line": 58,
+          "col": 8
+        },
+        "uid": "STRING58:8../../../test/sample_apps/toy_example.js",
+        "nodeValue": "meh",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME58:14../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 58,
+          "col": 14
+        },
+        "uid": "NAME58:14../../../test/sample_apps/toy_example.js",
+        "nodeValue": "meh",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "EXPR_RESULT59:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "EXPR_RESULT",
+        "loc": {
+          "line": 59,
+          "col": 0
+        },
+        "uid": "EXPR_RESULT59:0../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "ASSIGN59:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ASSIGN",
+        "loc": {
+          "line": 59,
+          "col": 0
+        },
+        "uid": "ASSIGN59:0../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "GETPROP59:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "GETPROP",
+        "loc": {
+          "line": 59,
+          "col": 0
+        },
+        "uid": "GETPROP59:0../../../test/sample_apps/toy_example.js",
+        "nodeValue": "",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME59:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 59,
+          "col": 0
+        },
+        "uid": "NAME59:0../../../test/sample_apps/toy_example.js",
+        "nodeValue": "exports",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "STRING59:8../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "STRING",
+        "loc": {
+          "line": 59,
+          "col": 8
+        },
+        "uid": "STRING59:8../../../test/sample_apps/toy_example.js",
+        "nodeValue": "blah",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    },
+    {
+      "v": "NAME59:15../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "NAME",
+        "loc": {
+          "line": 59,
+          "col": 15
+        },
+        "uid": "NAME59:15../../../test/sample_apps/toy_example.js",
+        "nodeValue": "blah",
+        "filename": "../../../test/sample_apps/toy_example.js"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "ROOT-1:-1null",
+      "w": "ROOT-1:-1null",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ROOT-1:-1null",
+      "w": "ROOT-1:-1null",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "ROOT-1:-1null",
+      "w": "ROOT-1:-1null",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ROOT-1:-1null",
+      "w": "SCRIPT1:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "SCRIPT1:0../../../test/sample_apps/toy_example.js",
+      "w": "CONST3:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CONST3:0../../../test/sample_apps/toy_example.js",
+      "w": "NAME3:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "NAME3:6../../../test/sample_apps/toy_example.js",
+      "w": "CALL3:26../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CALL3:26../../../test/sample_apps/toy_example.js",
+      "w": "NAME3:26../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CALL3:26../../../test/sample_apps/toy_example.js",
+      "w": "STRING3:34../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CONST3:0../../../test/sample_apps/toy_example.js",
+      "w": "CONST4:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "SCRIPT1:0../../../test/sample_apps/toy_example.js",
+      "w": "CONST4:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CONST4:0../../../test/sample_apps/toy_example.js",
+      "w": "NAME4:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "NAME4:6../../../test/sample_apps/toy_example.js",
+      "w": "CALL4:17../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CALL4:17../../../test/sample_apps/toy_example.js",
+      "w": "NAME4:17../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CALL4:17../../../test/sample_apps/toy_example.js",
+      "w": "STRING4:25../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CONST4:0../../../test/sample_apps/toy_example.js",
+      "w": "CONST5:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "SCRIPT1:0../../../test/sample_apps/toy_example.js",
+      "w": "CONST5:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CONST5:0../../../test/sample_apps/toy_example.js",
+      "w": "NAME5:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "NAME5:6../../../test/sample_apps/toy_example.js",
+      "w": "CALL5:15../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CALL5:15../../../test/sample_apps/toy_example.js",
+      "w": "GETPROP5:15../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GETPROP5:15../../../test/sample_apps/toy_example.js",
+      "w": "CALL5:15../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CALL5:15../../../test/sample_apps/toy_example.js",
+      "w": "NAME5:15../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CALL5:15../../../test/sample_apps/toy_example.js",
+      "w": "STRING5:23../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GETPROP5:15../../../test/sample_apps/toy_example.js",
+      "w": "STRING5:34../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CONST5:0../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT58:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "SCRIPT1:0../../../test/sample_apps/toy_example.js",
+      "w": "FUNCTION7:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "FUNCTION7:0../../../test/sample_apps/toy_example.js",
+      "w": "NAME7:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "FUNCTION7:0../../../test/sample_apps/toy_example.js",
+      "w": "PARAM_LIST7:12../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "PARAM_LIST7:12../../../test/sample_apps/toy_example.js",
+      "w": "NAME7:13../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "FUNCTION7:0../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK7:16../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "BLOCK7:16../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT8:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT8:1../../../test/sample_apps/toy_example.js",
+      "w": "CALL8:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CALL8:1../../../test/sample_apps/toy_example.js",
+      "w": "GETPROP8:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GETPROP8:1../../../test/sample_apps/toy_example.js",
+      "w": "NAME8:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GETPROP8:1../../../test/sample_apps/toy_example.js",
+      "w": "STRING8:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CALL8:1../../../test/sample_apps/toy_example.js",
+      "w": "NAME8:13../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT8:1../../../test/sample_apps/toy_example.js",
+      "w": "RETURN-1:-1",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK7:16../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT8:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "FUNCTION7:0../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK7:16../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "SCRIPT1:0../../../test/sample_apps/toy_example.js",
+      "w": "FUNCTION11:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "FUNCTION11:0../../../test/sample_apps/toy_example.js",
+      "w": "NAME11:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "FUNCTION11:0../../../test/sample_apps/toy_example.js",
+      "w": "PARAM_LIST11:13../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "PARAM_LIST11:13../../../test/sample_apps/toy_example.js",
+      "w": "NAME11:14../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "FUNCTION11:0../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK11:22../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "BLOCK11:22../../../test/sample_apps/toy_example.js",
+      "w": "LET12:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "LET12:1../../../test/sample_apps/toy_example.js",
+      "w": "NAME12:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "NAME12:5../../../test/sample_apps/toy_example.js",
+      "w": "ADD12:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ADD12:9../../../test/sample_apps/toy_example.js",
+      "w": "NAME12:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ADD12:9../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER12:18../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "LET12:1../../../test/sample_apps/toy_example.js",
+      "w": "IF13:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK11:22../../../test/sample_apps/toy_example.js",
+      "w": "IF13:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "IF13:1../../../test/sample_apps/toy_example.js",
+      "w": "GT13:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GT13:5../../../test/sample_apps/toy_example.js",
+      "w": "ADD13:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ADD13:5../../../test/sample_apps/toy_example.js",
+      "w": "NAME13:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ADD13:5../../../test/sample_apps/toy_example.js",
+      "w": "NAME13:14../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GT13:5../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER13:18../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "IF13:1../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK13:22../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "BLOCK13:22../../../test/sample_apps/toy_example.js",
+      "w": "IF14:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "IF14:2../../../test/sample_apps/toy_example.js",
+      "w": "GT14:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GT14:6../../../test/sample_apps/toy_example.js",
+      "w": "CALL14:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CALL14:6../../../test/sample_apps/toy_example.js",
+      "w": "NAME14:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CALL14:6../../../test/sample_apps/toy_example.js",
+      "w": "DIV14:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "DIV14:10../../../test/sample_apps/toy_example.js",
+      "w": "NAME14:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "DIV14:10../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER14:19../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GT14:6../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER14:24../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "IF14:2../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK14:27../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "BLOCK14:27../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT15:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT15:3../../../test/sample_apps/toy_example.js",
+      "w": "CALL15:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CALL15:3../../../test/sample_apps/toy_example.js",
+      "w": "GETPROP15:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GETPROP15:3../../../test/sample_apps/toy_example.js",
+      "w": "NAME15:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GETPROP15:3../../../test/sample_apps/toy_example.js",
+      "w": "STRING15:11../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CALL15:3../../../test/sample_apps/toy_example.js",
+      "w": "STRING15:15../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT15:3../../../test/sample_apps/toy_example.js",
+      "w": "RETURN-1:-1",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK14:27../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT15:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "IF14:2../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK14:27../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ON_TRUE"
+      }
+    },
+    {
+      "v": "IF14:2../../../test/sample_apps/toy_example.js",
+      "w": "RETURN-1:-1",
+      "value": {
+        "label": "ON_FALSE"
+      }
+    },
+    {
+      "v": "BLOCK13:22../../../test/sample_apps/toy_example.js",
+      "w": "IF14:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "IF13:1../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK13:22../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ON_TRUE"
+      }
+    },
+    {
+      "v": "IF13:1../../../test/sample_apps/toy_example.js",
+      "w": "RETURN-1:-1",
+      "value": {
+        "label": "ON_FALSE"
+      }
+    },
+    {
+      "v": "BLOCK11:22../../../test/sample_apps/toy_example.js",
+      "w": "LET12:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "FUNCTION11:0../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK11:22../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "SCRIPT1:0../../../test/sample_apps/toy_example.js",
+      "w": "FUNCTION20:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "FUNCTION20:0../../../test/sample_apps/toy_example.js",
+      "w": "NAME20:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "FUNCTION20:0../../../test/sample_apps/toy_example.js",
+      "w": "PARAM_LIST20:12../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "PARAM_LIST20:12../../../test/sample_apps/toy_example.js",
+      "w": "NAME20:13../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "FUNCTION20:0../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+      "w": "LET21:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "LET21:1../../../test/sample_apps/toy_example.js",
+      "w": "NAME21:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "NAME21:5../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER21:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "LET21:1../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT22:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT22:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT22:1../../../test/sample_apps/toy_example.js",
+      "w": "ASSIGN22:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ASSIGN22:1../../../test/sample_apps/toy_example.js",
+      "w": "NAME22:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ASSIGN22:1../../../test/sample_apps/toy_example.js",
+      "w": "NAME22:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT22:1../../../test/sample_apps/toy_example.js",
+      "w": "LET23:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+      "w": "LET23:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "LET23:1../../../test/sample_apps/toy_example.js",
+      "w": "NAME23:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "NAME23:5../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER23:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "LET23:1../../../test/sample_apps/toy_example.js",
+      "w": "LET26:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+      "w": "LET26:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "LET26:1../../../test/sample_apps/toy_example.js",
+      "w": "NAME26:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "NAME26:5../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER26:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "LET26:1../../../test/sample_apps/toy_example.js",
+      "w": "LET27:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+      "w": "LET27:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "LET27:1../../../test/sample_apps/toy_example.js",
+      "w": "NAME27:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "NAME27:5../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER27:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "LET27:1../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT29:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT29:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT29:1../../../test/sample_apps/toy_example.js",
+      "w": "CALL29:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CALL29:1../../../test/sample_apps/toy_example.js",
+      "w": "NAME29:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CALL29:1../../../test/sample_apps/toy_example.js",
+      "w": "NAME29:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT29:1../../../test/sample_apps/toy_example.js",
+      "w": "LET30:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+      "w": "LET30:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "LET30:1../../../test/sample_apps/toy_example.js",
+      "w": "NAME30:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "NAME30:5../../../test/sample_apps/toy_example.js",
+      "w": "FUNCTION30:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "FUNCTION30:10../../../test/sample_apps/toy_example.js",
+      "w": "NAME30:19../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "FUNCTION30:10../../../test/sample_apps/toy_example.js",
+      "w": "PARAM_LIST30:25../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "FUNCTION30:10../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK30:28../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "BLOCK30:28../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT31:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT31:2../../../test/sample_apps/toy_example.js",
+      "w": "CALL31:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CALL31:2../../../test/sample_apps/toy_example.js",
+      "w": "GETPROP31:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GETPROP31:2../../../test/sample_apps/toy_example.js",
+      "w": "NAME31:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GETPROP31:2../../../test/sample_apps/toy_example.js",
+      "w": "STRING31:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CALL31:2../../../test/sample_apps/toy_example.js",
+      "w": "STRING31:14../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "LET30:1../../../test/sample_apps/toy_example.js",
+      "w": "IF35:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+      "w": "IF35:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "IF35:1../../../test/sample_apps/toy_example.js",
+      "w": "GT35:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GT35:5../../../test/sample_apps/toy_example.js",
+      "w": "NAME35:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GT35:5../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER35:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "IF35:1../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK35:12../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "BLOCK35:12../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT36:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT36:2../../../test/sample_apps/toy_example.js",
+      "w": "ASSIGN36:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ASSIGN36:2../../../test/sample_apps/toy_example.js",
+      "w": "NAME36:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ASSIGN36:2../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER36:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT36:2../../../test/sample_apps/toy_example.js",
+      "w": "IF37:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK35:12../../../test/sample_apps/toy_example.js",
+      "w": "IF37:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "IF37:2../../../test/sample_apps/toy_example.js",
+      "w": "LT37:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "LT37:6../../../test/sample_apps/toy_example.js",
+      "w": "ADD37:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ADD37:6../../../test/sample_apps/toy_example.js",
+      "w": "NAME37:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ADD37:6../../../test/sample_apps/toy_example.js",
+      "w": "NAME37:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "LT37:6../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER37:14../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "IF37:2../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK37:18../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "BLOCK37:18../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT38:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT38:3../../../test/sample_apps/toy_example.js",
+      "w": "ASSIGN38:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ASSIGN38:3../../../test/sample_apps/toy_example.js",
+      "w": "NAME38:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ASSIGN38:3../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER38:7../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT38:3../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT39:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK37:18../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT39:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT39:3../../../test/sample_apps/toy_example.js",
+      "w": "ASSIGN39:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ASSIGN39:3../../../test/sample_apps/toy_example.js",
+      "w": "NAME39:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ASSIGN39:3../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER39:7../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT39:3../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT42:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK37:18../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT38:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "IF37:2../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK37:18../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ON_TRUE"
+      }
+    },
+    {
+      "v": "IF37:2../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT42:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ON_FALSE"
+      }
+    },
+    {
+      "v": "BLOCK35:12../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT36:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "IF35:1../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK35:12../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ON_TRUE"
+      }
+    },
+    {
+      "v": "IF35:1../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT42:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ON_FALSE"
+      }
+    },
+    {
+      "v": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT42:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT42:1../../../test/sample_apps/toy_example.js",
+      "w": "CALL42:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "CALL42:1../../../test/sample_apps/toy_example.js",
+      "w": "NAME42:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT42:1../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT43:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT43:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT43:1../../../test/sample_apps/toy_example.js",
+      "w": "ASSIGN_ADD43:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ASSIGN_ADD43:1../../../test/sample_apps/toy_example.js",
+      "w": "NAME43:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ASSIGN_ADD43:1../../../test/sample_apps/toy_example.js",
+      "w": "ADD43:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ADD43:6../../../test/sample_apps/toy_example.js",
+      "w": "NAME43:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ADD43:6../../../test/sample_apps/toy_example.js",
+      "w": "NAME43:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT43:1../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT44:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT44:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT44:1../../../test/sample_apps/toy_example.js",
+      "w": "ASSIGN_ADD44:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ASSIGN_ADD44:1../../../test/sample_apps/toy_example.js",
+      "w": "NAME44:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ASSIGN_ADD44:1../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER44:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT44:1../../../test/sample_apps/toy_example.js",
+      "w": "IF45:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+      "w": "IF45:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "IF45:1../../../test/sample_apps/toy_example.js",
+      "w": "GT45:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GT45:5../../../test/sample_apps/toy_example.js",
+      "w": "ADD45:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ADD45:5../../../test/sample_apps/toy_example.js",
+      "w": "ADD45:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ADD45:5../../../test/sample_apps/toy_example.js",
+      "w": "NAME45:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ADD45:5../../../test/sample_apps/toy_example.js",
+      "w": "NAME45:9../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ADD45:5../../../test/sample_apps/toy_example.js",
+      "w": "NAME46:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GT45:5../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER46:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "IF45:1../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK46:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "BLOCK46:10../../../test/sample_apps/toy_example.js",
+      "w": "IF47:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "IF47:2../../../test/sample_apps/toy_example.js",
+      "w": "AND47:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "AND47:6../../../test/sample_apps/toy_example.js",
+      "w": "GT47:7../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GT47:7../../../test/sample_apps/toy_example.js",
+      "w": "NAME47:7../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GT47:7../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER47:11../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "AND47:6../../../test/sample_apps/toy_example.js",
+      "w": "LT47:19../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "LT47:19../../../test/sample_apps/toy_example.js",
+      "w": "ADD47:19../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ADD47:19../../../test/sample_apps/toy_example.js",
+      "w": "NAME47:19../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ADD47:19../../../test/sample_apps/toy_example.js",
+      "w": "NAME47:23../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "LT47:19../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER47:27../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "IF47:2../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK47:32../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "BLOCK47:32../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT48:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT48:3../../../test/sample_apps/toy_example.js",
+      "w": "ASSIGN_ADD48:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ASSIGN_ADD48:3../../../test/sample_apps/toy_example.js",
+      "w": "NAME48:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ASSIGN_ADD48:3../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER48:8../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT48:3../../../test/sample_apps/toy_example.js",
+      "w": "RETURN49:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK47:32../../../test/sample_apps/toy_example.js",
+      "w": "RETURN49:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "RETURN49:3../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER49:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "RETURN49:3../../../test/sample_apps/toy_example.js",
+      "w": "RETURN-1:-1",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK47:32../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT48:3../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "IF47:2../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK47:32../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ON_TRUE"
+      }
+    },
+    {
+      "v": "IF47:2../../../test/sample_apps/toy_example.js",
+      "w": "IF52:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ON_FALSE"
+      }
+    },
+    {
+      "v": "BLOCK46:10../../../test/sample_apps/toy_example.js",
+      "w": "IF47:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "IF45:1../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK46:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ON_TRUE"
+      }
+    },
+    {
+      "v": "IF45:1../../../test/sample_apps/toy_example.js",
+      "w": "IF52:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ON_FALSE"
+      }
+    },
+    {
+      "v": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+      "w": "IF52:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "IF52:1../../../test/sample_apps/toy_example.js",
+      "w": "FALSE52:5../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "IF52:1../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK52:12../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "BLOCK52:12../../../test/sample_apps/toy_example.js",
+      "w": "VAR53:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "VAR53:2../../../test/sample_apps/toy_example.js",
+      "w": "NAME53:6../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "NAME53:6../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER53:10../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "VAR53:2../../../test/sample_apps/toy_example.js",
+      "w": "RETURN55:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK52:12../../../test/sample_apps/toy_example.js",
+      "w": "VAR53:2../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "IF52:1../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK52:12../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ON_TRUE"
+      }
+    },
+    {
+      "v": "IF52:1../../../test/sample_apps/toy_example.js",
+      "w": "RETURN55:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "ON_FALSE"
+      }
+    },
+    {
+      "v": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+      "w": "RETURN55:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "RETURN55:1../../../test/sample_apps/toy_example.js",
+      "w": "NUMBER55:8../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "RETURN55:1../../../test/sample_apps/toy_example.js",
+      "w": "RETURN-1:-1",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+      "w": "LET21:1../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "FUNCTION20:0../../../test/sample_apps/toy_example.js",
+      "w": "BLOCK20:20../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "SCRIPT1:0../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT58:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT58:0../../../test/sample_apps/toy_example.js",
+      "w": "ASSIGN58:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ASSIGN58:0../../../test/sample_apps/toy_example.js",
+      "w": "GETPROP58:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GETPROP58:0../../../test/sample_apps/toy_example.js",
+      "w": "NAME58:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GETPROP58:0../../../test/sample_apps/toy_example.js",
+      "w": "STRING58:8../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ASSIGN58:0../../../test/sample_apps/toy_example.js",
+      "w": "NAME58:14../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT58:0../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT59:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "SCRIPT1:0../../../test/sample_apps/toy_example.js",
+      "w": "EXPR_RESULT59:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT59:0../../../test/sample_apps/toy_example.js",
+      "w": "ASSIGN59:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ASSIGN59:0../../../test/sample_apps/toy_example.js",
+      "w": "GETPROP59:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GETPROP59:0../../../test/sample_apps/toy_example.js",
+      "w": "NAME59:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "GETPROP59:0../../../test/sample_apps/toy_example.js",
+      "w": "STRING59:8../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "ASSIGN59:0../../../test/sample_apps/toy_example.js",
+      "w": "NAME59:15../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": ""
+      }
+    },
+    {
+      "v": "EXPR_RESULT59:0../../../test/sample_apps/toy_example.js",
+      "w": "RETURN-1:-1",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "SCRIPT1:0../../../test/sample_apps/toy_example.js",
+      "w": "CONST3:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "ROOT-1:-1null",
+      "w": "SCRIPT1:0../../../test/sample_apps/toy_example.js",
+      "value": {
+        "label": "UNCOND"
+      }
+    },
+    {
+      "v": "ROOT-1:-1null",
+      "w": "ROOT-1:-1null",
+      "value": {
+        "label": "UNCOND"
+      }
+    }
+  ]
+}

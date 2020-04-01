@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="closure-compiler-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://F:/closure-compiler/target/closure-compiler-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://F:/closure-compiler/target/closure-compiler-1.0-SNAPSHOT.jar!/" />
+    </SOURCES>
+  </library>
+</component>

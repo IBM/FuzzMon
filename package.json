@@ -1,0 +1,44 @@
+{
+	"name": "jsfuzz",
+	"version": "1.0.0",
+	"description": "JavaScript fuzz testing tool",
+	"main": "main.js",
+	"directories": {
+		"test": "tests"
+	},
+	"scripts": {
+		"test": "./node_modules/.bin/mocha --reporter spec"
+	},
+	"dependencies": {
+		"co-body": "^6.0.0",
+		"escodegen": "^1.11.0",
+		"escope": "^3.6.0",
+		"esprima": "^4.0.1",
+		"estraverse": "^4.2.0",
+		"flatted": "^2.0.0",
+		"glob-all": "^3.1.0",
+		"graphlib": "^2.1.5",
+		"log4js": "^3.0.6",
+		"opn": "^5.4.0",
+		"randexp": "^0.5.3",
+		"random-js": "^1.0.8",
+		"random-weighted-item": "^1.0.9",
+		"superagent": "^3.8.3",
+		"tern": "^0.21.0"
+	},
+	"devDependencies": {
+		"eslint": "^5.12.0",
+		"eslint-plugin-security": "^1.4.0",
+		"chai": "^4.2.0",
+		"depcheck": "^0.6.11",
+		"mocha": "^5.2.0",
+		"require-from-string": "^2.0.2",
+		"rewire": "^4.0.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.ibm.com:JSFuzz/JSFuzz.git"
+	},
+	"author": "",
+	"license": "IBM proprietary license"
+}

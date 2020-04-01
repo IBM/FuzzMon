@@ -1,0 +1,151 @@
+<!doctype html>
+<meta charset="utf-8">
+<title></title>
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://dagrejs.github.io/project/graphlib/latest/graphlib.min.js"></script>
+<script src="https://dagrejs.github.io/project/dagre-d3/latest/dagre-d3.min.js"></script>
+<script src="https://dagrejs.github.io/project/dagre-d3/latest/dagre-d3.min.js"></script>
+<style>
+svg {
+border: 1px solid #999;
+overflow: hidden;
+}
+.node {
+white-space: nowrap;
+}
+.node rect,
+.node circle,
+.node ellipse {
+stroke: #333;
+fill: #fff;
+stroke-width: 1.5px;
+}
+.cluster rect {
+stroke: #333;
+fill: #000;
+fill-opacity: 0.1;
+stroke-width: 1.5px;
+}
+.edgePath path.path {
+stroke: #333;
+stroke-width: 1.5px;
+fill: none;
+}
+h1, h2 {
+color: #333;
+}
+textarea {
+width: 800px;
+}
+label {
+margin-top: 1em;
+display: block;
+}
+.error {
+color: red;
+}
+#drop_zone {
+border: 5px solid blue;
+width:  200px;
+height: 100px;
+}
+.thumb {
+height: 75px;
+border: 1px solid #000;
+margin: 10px 5px 0 0;
+}
+#drop_zone {
+  border: 2px dashed #bbb;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0px;
+  text-align: center;
+  display: inline-block;
+  font: 20pt bold 'Vollkorn';
+  color: #bbb;
+  height: 50px;
+  width: 1500px;
+  margin-bottom: 10px;
+}
+</style>
+<body>
+  <form>
+    <div id="drop_zone"><br>Drop graphlib JSON files here</div>
+    <output id="list"></output>
+  </form>
+  <svg width=1500 height=650>
+    <g/>
+  </svg>
+    <script>
+      function handleFileSelect(evt) {
+        evt.stopPropagation();
+        evt.preventDefault();
+        var files = evt.dataTransfer.files; // FileList object.
+        // files is a FileList of File objects. List some properties.
+        var output = [];
+        for (var i = 0, f; f = files[i]; i++) {
+          var reader = new FileReader();
+          // Closure to capture the file information.
+          reader.onload = (function(theFile) {
+              return function(e) {
+                // Render thumbnail.
+                output.push('<li><strong>', escape(theFile.name), '</strong> (', theFile.type || 'n/a', ') - ',
+                  theFile.size, ' bytes, last modified: ', theFile.lastModifiedDate ? theFile.lastModifiedDate.toLocaleDateString() : 'n/a',
+                  '</li>');
+                var fileContent = reader.result;
+                drawGraph(fileContent);
+              }
+          })(f);
+          reader.readAsText(f);
+        }
+        document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
+      }
+
+      function handleDragOver(evt) {
+        evt.stopPropagation();
+        evt.preventDefault();
+        evt.dataTransfer.dropEffect = 'copy'; // Explicitly show this is a copy.
+      }
+      // Setup the dnd listeners.
+      var dropZone = document.getElementById('drop_zone');
+      dropZone.addEventListener('dragover', handleDragOver, false);
+      dropZone.addEventListener('drop', handleFileSelect, false);
+
+      function drawGraph(text) {
+        try {
+          let jsonGraph = JSON.parse(text);
+          g = graphlib.json.read(jsonGraph).setGraph({});
+          g.nodes().forEach(function(v) {
+            var node = g.node(v);
+            node.label = node.label + '\n' + JSON.stringify(node.loc) + '\n' + (node.nodeValue ? node.nodeValue + '\n' : '') + node.filename + '\nis target:' + node.isTarget;
+          });
+
+        } catch (e) {
+          d3.select("svg g").innerHTML = e;
+          throw e;
+        }
+        // Save link to new graph
+        if (!g.graph().hasOwnProperty("marginx") &&
+          !g.graph().hasOwnProperty("marginy")) {
+          g.graph().marginx = 20;
+          g.graph().marginy = 20;
+        }
+        g.graph().transition = function(selection) {
+          return selection.transition().duration(500);
+        };
+        // Render the graph into svg g
+        d3.select("svg g").call(render, g);
+      }
+
+      // Set up zoom support
+      var svg = d3.select("svg"),
+        inner = d3.select("svg g"),
+        zoom = d3.zoom().on("zoom", function() {
+          inner.attr("transform", d3.event.transform);
+        });
+      svg.call(zoom);
+      // Create and configure the renderer
+      var render = dagreD3.render();
+      var g;
+    </script>
